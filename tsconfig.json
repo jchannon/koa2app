@@ -1,0 +1,37 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "allowSyntheticDefaultImports": true,
+        "sourceMap": true,
+        "noEmit": true,
+        "noEmitHelpers": true,
+        "importHelpers": true,
+        "strictNullChecks": false,
+        "removeComments": false,
+        "target": "es2017",
+        "lib": [
+            "es2017"
+        ],
+        "typeRoots": [
+            "node_modules/@types"
+        ],
+        "types": [
+            "koa"
+        ],
+        "listFiles": false,
+        "listEmittedFiles": true,
+        "outDir": "/out",
+        "pretty": true
+    },
+    "exclude": [
+        "node_modules"
+    ],
+    "compileOnSave": true,
+    "buildOnSave": false,
+    "include": [
+        "./*.ts"
+    ]
+}
